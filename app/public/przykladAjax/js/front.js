@@ -6,7 +6,7 @@ $(function(){
         const text = input.val();
 
         $.ajax({
-            url : '/reverse',
+            url : '/all',
             data : JSON.stringify({
                 text, //Pamiętasz ten skrótowy zapis (text : text)?
             }),
